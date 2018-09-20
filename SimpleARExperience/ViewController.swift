@@ -12,12 +12,18 @@ final class ViewController: UIViewController {
 
     @IBOutlet weak var contentsCollectionView: UICollectionView!
 
+    // USDZファイル名のArray
+    private let contentsArray: [String] = ["cupandsaucer", "gramophone", "plantpot",
+                                           "redchair", "retrotv", "teapot", "trowel",
+                                           "tulip", "wateringcan", "wheelbarrow"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setUpUI()
     }
 
     fileprivate func setUpUI() {
+        self.navigationItem.title = "Simple AR Experience"
         self.contentsCollectionView.delegate = self
         self.contentsCollectionView.dataSource = self
         let cellNib = UINib(nibName: "ContentsCollectionViewCell", bundle: nil)
@@ -31,11 +37,12 @@ extension ViewController: UICollectionViewDelegate {
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return self.contentsArray.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ContentsCell", for: indexPath) as! ContentsCollectionViewCell
+        cell.contentsImageView.image = UIImage(named: self.contentsArray[indexPath.row])
         return cell
     }
 }
