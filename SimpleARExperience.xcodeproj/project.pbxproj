@@ -14,6 +14,16 @@
 		195DD9F12151270E00ADD9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195DD9EF2151270E00ADD9AF /* LaunchScreen.storyboard */; };
 		19687B0921527C8D0039E6BF /* ContentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */; };
 		19687B0A21527C8D0039E6BF /* ContentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */; };
+		19687B16215364CE0039E6BF /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0C215364CE0039E6BF /* wheelbarrow.usdz */; };
+		19687B17215364CE0039E6BF /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0D215364CE0039E6BF /* wateringcan.usdz */; };
+		19687B18215364CE0039E6BF /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0E215364CE0039E6BF /* trowel.usdz */; };
+		19687B19215364CE0039E6BF /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0F215364CE0039E6BF /* teapot.usdz */; };
+		19687B1A215364CE0039E6BF /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B10215364CE0039E6BF /* gramophone.usdz */; };
+		19687B1B215364CE0039E6BF /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B11215364CE0039E6BF /* cupandsaucer.usdz */; };
+		19687B1C215364CE0039E6BF /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B12215364CE0039E6BF /* retrotv.usdz */; };
+		19687B1D215364CE0039E6BF /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B13215364CE0039E6BF /* redchair.usdz */; };
+		19687B1E215364CE0039E6BF /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B14215364CE0039E6BF /* tulip.usdz */; };
+		19687B1F215364CE0039E6BF /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B15215364CE0039E6BF /* plantpot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		195DD9F22151270E00ADD9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsCollectionViewCell.swift; sourceTree = "<group>"; };
 		19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		19687B0C215364CE0039E6BF /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		19687B0D215364CE0039E6BF /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wateringcan.usdz; sourceTree = "<group>"; };
+		19687B0E215364CE0039E6BF /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = trowel.usdz; sourceTree = "<group>"; };
+		19687B0F215364CE0039E6BF /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = teapot.usdz; sourceTree = "<group>"; };
+		19687B10215364CE0039E6BF /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = gramophone.usdz; sourceTree = "<group>"; };
+		19687B11215364CE0039E6BF /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		19687B12215364CE0039E6BF /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
+		19687B13215364CE0039E6BF /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
+		19687B14215364CE0039E6BF /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		19687B15215364CE0039E6BF /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plantpot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +82,30 @@
 				195DD9E82151270C00ADD9AF /* ViewController.swift */,
 				195DD9EA2151270C00ADD9AF /* Main.storyboard */,
 				195DD9ED2151270E00ADD9AF /* Assets.xcassets */,
+				19687B0B215364CE0039E6BF /* usdz */,
 				195DD9EF2151270E00ADD9AF /* LaunchScreen.storyboard */,
 				195DD9F22151270E00ADD9AF /* Info.plist */,
 				19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */,
 				19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */,
 			);
 			path = SimpleARExperience;
+			sourceTree = "<group>";
+		};
+		19687B0B215364CE0039E6BF /* usdz */ = {
+			isa = PBXGroup;
+			children = (
+				19687B0C215364CE0039E6BF /* wheelbarrow.usdz */,
+				19687B0D215364CE0039E6BF /* wateringcan.usdz */,
+				19687B0E215364CE0039E6BF /* trowel.usdz */,
+				19687B0F215364CE0039E6BF /* teapot.usdz */,
+				19687B10215364CE0039E6BF /* gramophone.usdz */,
+				19687B11215364CE0039E6BF /* cupandsaucer.usdz */,
+				19687B12215364CE0039E6BF /* retrotv.usdz */,
+				19687B13215364CE0039E6BF /* redchair.usdz */,
+				19687B14215364CE0039E6BF /* tulip.usdz */,
+				19687B15215364CE0039E6BF /* plantpot.usdz */,
+			);
+			path = usdz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +167,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				19687B0A21527C8D0039E6BF /* ContentsCollectionViewCell.xib in Resources */,
+				19687B1A215364CE0039E6BF /* gramophone.usdz in Resources */,
 				195DD9F12151270E00ADD9AF /* LaunchScreen.storyboard in Resources */,
+				19687B16215364CE0039E6BF /* wheelbarrow.usdz in Resources */,
+				19687B17215364CE0039E6BF /* wateringcan.usdz in Resources */,
+				19687B1F215364CE0039E6BF /* plantpot.usdz in Resources */,
+				19687B19215364CE0039E6BF /* teapot.usdz in Resources */,
+				19687B18215364CE0039E6BF /* trowel.usdz in Resources */,
+				19687B1D215364CE0039E6BF /* redchair.usdz in Resources */,
+				19687B1E215364CE0039E6BF /* tulip.usdz in Resources */,
+				19687B1B215364CE0039E6BF /* cupandsaucer.usdz in Resources */,
 				195DD9EE2151270E00ADD9AF /* Assets.xcassets in Resources */,
+				19687B1C215364CE0039E6BF /* retrotv.usdz in Resources */,
 				195DD9EC2151270C00ADD9AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
