@@ -12,6 +12,8 @@
 		195DD9EC2151270C00ADD9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195DD9EA2151270C00ADD9AF /* Main.storyboard */; };
 		195DD9EE2151270E00ADD9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195DD9ED2151270E00ADD9AF /* Assets.xcassets */; };
 		195DD9F12151270E00ADD9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195DD9EF2151270E00ADD9AF /* LaunchScreen.storyboard */; };
+		19687B0921527C8D0039E6BF /* ContentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */; };
+		19687B0A21527C8D0039E6BF /* ContentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		195DD9ED2151270E00ADD9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195DD9F02151270E00ADD9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195DD9F22151270E00ADD9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				195DD9ED2151270E00ADD9AF /* Assets.xcassets */,
 				195DD9EF2151270E00ADD9AF /* LaunchScreen.storyboard */,
 				195DD9F22151270E00ADD9AF /* Info.plist */,
+				19687B0721527C8D0039E6BF /* ContentsCollectionViewCell.swift */,
+				19687B0821527C8D0039E6BF /* ContentsCollectionViewCell.xib */,
 			);
 			path = SimpleARExperience;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19687B0A21527C8D0039E6BF /* ContentsCollectionViewCell.xib in Resources */,
 				195DD9F12151270E00ADD9AF /* LaunchScreen.storyboard in Resources */,
 				195DD9EE2151270E00ADD9AF /* Assets.xcassets in Resources */,
 				195DD9EC2151270C00ADD9AF /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				195DD9E92151270C00ADD9AF /* ViewController.swift in Sources */,
+				19687B0921527C8D0039E6BF /* ContentsCollectionViewCell.swift in Sources */,
 				195DD9E72151270C00ADD9AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

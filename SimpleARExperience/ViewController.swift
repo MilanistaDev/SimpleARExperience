@@ -20,6 +20,8 @@ final class ViewController: UIViewController {
     fileprivate func setUpUI() {
         self.contentsCollectionView.delegate = self
         self.contentsCollectionView.dataSource = self
+        let cellNib = UINib(nibName: "ContentsCollectionViewCell", bundle: nil)
+        self.contentsCollectionView.register(cellNib, forCellWithReuseIdentifier: "ContentsCell")
     }
 }
 
@@ -29,11 +31,22 @@ extension ViewController: UICollectionViewDelegate {
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 0
+        return 1
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = UICollectionViewCell()
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ContentsCell", for: indexPath) as! ContentsCollectionViewCell
         return cell
+    }
+}
+
+// MARK:- UICollectionViewDelegateFlowLayout
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width: CGFloat = UIScreen.main.bounds.width / 2 - 7.5
+        let height = width
+        return CGSize(width: width, height: height)
     }
 }
