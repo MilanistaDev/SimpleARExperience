@@ -42,6 +42,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>This App use camera for AR contents.</string>
+	<string>This App uses camera for AR contents.</string>
 </dict>
 </plist>
