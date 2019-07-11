@@ -9,6 +9,8 @@
 import UIKit
 
 class ContentsCollectionViewCell: UICollectionViewCell {
+
+    @IBOutlet weak var baseView: UIView!
     @IBOutlet weak var contentsImageView: UIImageView!
 
     override func awakeFromNib() {

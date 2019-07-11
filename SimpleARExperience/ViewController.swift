@@ -92,6 +92,7 @@ extension ViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ContentsCell", for: indexPath) as! ContentsCollectionViewCell
         switch indexPath.section {
         case ContentType.web.rawValue:
+            cell.baseView.backgroundColor = UIColor(red: 243/255, green: 151/255, blue: 0, alpha: 1.0)
             cell.contentsImageView.image = UIImage(named: self.webContentsArray[indexPath.row].name)
         default:
             cell.contentsImageView.image = UIImage(named: self.contentsArray[indexPath.row])
