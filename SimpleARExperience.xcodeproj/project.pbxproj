@@ -24,6 +24,7 @@
 		19687B1D215364CE0039E6BF /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B13215364CE0039E6BF /* redchair.usdz */; };
 		19687B1E215364CE0039E6BF /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B14215364CE0039E6BF /* tulip.usdz */; };
 		19687B1F215364CE0039E6BF /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 19687B15215364CE0039E6BF /* plantpot.usdz */; };
+		FD79089C22D6E66E0018A064 /* stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FD79089B22D6E66E0018A064 /* stratocaster.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		19687B13215364CE0039E6BF /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
 		19687B14215364CE0039E6BF /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
 		19687B15215364CE0039E6BF /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plantpot.usdz; sourceTree = "<group>"; };
+		FD79089B22D6E66E0018A064 /* stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = stratocaster.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				19687B13215364CE0039E6BF /* redchair.usdz */,
 				19687B14215364CE0039E6BF /* tulip.usdz */,
 				19687B15215364CE0039E6BF /* plantpot.usdz */,
+				FD79089B22D6E66E0018A064 /* stratocaster.usdz */,
 			);
 			path = usdz;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				19687B0A21527C8D0039E6BF /* ContentsCollectionViewCell.xib in Resources */,
 				19687B1A215364CE0039E6BF /* gramophone.usdz in Resources */,
+				FD79089C22D6E66E0018A064 /* stratocaster.usdz in Resources */,
 				195DD9F12151270E00ADD9AF /* LaunchScreen.storyboard in Resources */,
 				19687B16215364CE0039E6BF /* wheelbarrow.usdz in Resources */,
 				19687B17215364CE0039E6BF /* wateringcan.usdz in Resources */,
