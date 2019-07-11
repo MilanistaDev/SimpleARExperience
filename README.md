@@ -3,9 +3,16 @@ This App is the simple AR experience App by using AR Quick Look.
 
 ## Environment
 * iOS 12 and later
-* Xcode 10 and later
-* macOS 10.13.6 and later
-* Swift 4.2
+* Xcode 10.2.1 and later
+* macOS 10.14.5 and later
+* Swift 5.0
+
+## Update Log
+
+|Version|note|
+|:--|:--|
+|v1.0|-|
+|v1.1|Added new WebAR contents(Mac Pro and Pro Display XDR)<BR>Swift 4.2 -> Swift 5.0|
 
 ## Commentary article
 This app made for my Qiita article's sample code.  
