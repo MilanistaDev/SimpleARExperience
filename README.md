@@ -43,3 +43,10 @@ AR mode
 
 
 Enjoy!
+
+## Web AR Contents
+
+From v1.1, I added Web AR Contents(Mac Pro and Pro Display XDR).
+Orange border cell is applicable.
+
+<a href="https://3.bp.blogspot.com/-JTiKQyDa7zc/XSa-oSwgXlI/AAAAAAAAGEY/jswEVWnuxnk5xt0UDA-ykLobR4sAXssUgCLcBGAs/s1600/NewMacProWebAR.gif" imageanchor="1" ><img border="0" src="https://3.bp.blogspot.com/-JTiKQyDa7zc/XSa-oSwgXlI/AAAAAAAAGEY/jswEVWnuxnk5xt0UDA-ykLobR4sAXssUgCLcBGAs/s1600/NewMacProWebAR.gif" data-original-width="400" data-original-height="866" /></a>
